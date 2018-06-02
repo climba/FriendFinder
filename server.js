@@ -12,8 +12,8 @@ var htmlRoutes = require("./app/routing/htmlRoutes.js");
 // =============================================================
 // var app = express();
 var app = express();
-var PORT = 3000; // Local machine  conf
-// var PORT = process.env.PORT || 3000; // heroku conf
+// var PORT = 3000; // Local machine  conf
+var PORT = process.env.PORT || 3000; // heroku conf
 
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.urlencoded({ extended: true }));
