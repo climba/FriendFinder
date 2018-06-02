@@ -49,7 +49,7 @@ var friends = [
   },
   {
     "name": "Kiki",
-    "photo": "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/33862420_10157019775429381_9212255360117637120_n.jpg",
+    "photo": "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/33862420_10157019775429381_9212255360117637120_n.jpg?_nc_cat=0&oh=4a09473c75cf9ac127dab58cb988a244&oe=5B873DCF",
     "scores":[
       4,
       1,
