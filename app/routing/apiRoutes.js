@@ -14,6 +14,34 @@ app.get("/friends", function(req, res) {
   return res.json(friends);
 });
 
+app.get("/app/public/images/best_friends.jpg", function(req, res) {
+  res.sendFile(path.join(__dirname, "../public/images/best_friends.jpg"));
+});
+
+app.get("/app/public/images/donna.jpg", function(req, res) {
+  res.sendFile(path.join(__dirname, "../public/images/donna.jpg"));
+});
+
+app.get("/app/public/images/dwane.jpg", function(req, res) {
+  res.sendFile(path.join(__dirname, "../public/images/dwane.jpg"));
+});
+
+app.get("/app/public/images/kiki.jpg", function(req, res) {
+  res.sendFile(path.join(__dirname, "../public/images/kiki.jpg"));
+});
+
+app.get("/app/public/images/mike.gif", function(req, res) {
+  res.sendFile(path.join(__dirname, "../public/images/mike.gif"));
+});
+
+app.get("/app/public/images/mira.jpg", function(req, res) {
+  res.sendFile(path.join(__dirname, "../app/public/images/mira.jpg"));
+});
+
+
+
+
+
 app.get("/friends/:myFriends" , function(req, res) {
   var chosen = req.params.myFriends;
 
@@ -39,6 +67,7 @@ app.post("/friends", function(req, res) {
     photo: "",
     friendDifference: Infinity
   };
+  
 
   // Here we take the result of the user"s survey POST and parse it.
   var userData = req.body;
