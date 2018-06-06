@@ -1,10 +1,8 @@
 # FriendFinder
 
-# Friend Finder - Node and Express Servers
-
 ### Overview
 
-This is an express at the works as a compatibility-based "FriendFinder" application -- basically a simple version of a dating app.
+This is an express app it works as a compatibility-based "FriendFinder" application -- basically a simple version of a dating app.
 
 ## Use Instructions
 
@@ -22,11 +20,10 @@ This is an express at the works as a compatibility-based "FriendFinder" applicat
 
 2. Start the server by running the command " _node server.js_ "
 
-3. Then avigate to [http://localhost:3000/](http://localhost:3000/) in your web browser 
+3. Then navigate to [http://localhost:3000/](http://localhost:3000/) in your web browser 
 
-4. Click on the Survey button and fil in the survey.
+4. Click on the survey button and fil in the survey.
 
-
-  ## Survey Area
+  ## Running App
 
 ![layers.gif](app/public/images/layers.gif "Layers")
